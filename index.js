@@ -8,8 +8,6 @@ var fuzmatch = require('fuzzy-matcher');
 var TtyReader = require('tty').ReadStream;
 var TtyWriter = require('tty').WriteStream;
 
-var lines = fs.readFileSync('./list.txt', 'utf8').split('\n');
-
 function filterAll(key, lines) {
     var res = [];
     for (var k = 0; k < lines.length; ++k) {
