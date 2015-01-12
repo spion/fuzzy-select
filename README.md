@@ -1,6 +1,6 @@
 # fuzzy-select
 
-Like selecta, but uses dynamic programming and written in JS
+Like [selecta][1], but uses dynamic programming and written in JS
 
 ## Installation
 
@@ -18,3 +18,4 @@ find . | fuzzy-select > result.txt
 
 ISC
 
+[1]: https://github.com/garybernhardt/selecta
