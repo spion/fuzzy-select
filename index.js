@@ -21,7 +21,7 @@ function byScoreReversed(item1, item2) {
 }
 
 
-lines = [];
+var lines = [];
 process.stdin.pipe(split()).pipe(through(function(l) {
     lines.push(l);
 }, main));
