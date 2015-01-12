@@ -10,6 +10,7 @@
     "blessed": "^0.0.37",
     "fuzzy-matcher": "^1.0.2",
     "jetty": "^0.2.1",
+    "jetty-plus": "^0.2.1",
     "lodash.debounce": "^2.4.1",
     "split": "^0.3.2",
     "through": "^2.3.6"
