@@ -1,0 +1,29 @@
+{
+  "name": "fuzzy-select",
+  "version": "1.0.0",
+  "description": "Like selecta, but uses dynamic programming and written in JS",
+  "main": "index.js",
+  "bin": {
+      "fuzzy-select": "index.js"
+  },
+  "dependencies": {
+    "blessed": "^0.0.37",
+    "fuzzy-matcher": "^1.0.2",
+    "jetty": "^0.2.1",
+    "lodash.debounce": "^2.4.1",
+    "split": "^0.3.2",
+    "through": "^2.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "selecta",
+    "fuzzy",
+    "select",
+    "terminal"
+  ],
+  "author": "spion",
+  "license": "ISC"
+}

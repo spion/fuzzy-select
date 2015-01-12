@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Jetty = require('jetty');
 var through = require('through');
 var split = require('split');
