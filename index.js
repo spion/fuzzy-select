@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var Jetty = require('jetty');
+var Jetty = require('jetty-plus');
 var through = require('through');
 var split = require('split');
 var fs = require('fs');
